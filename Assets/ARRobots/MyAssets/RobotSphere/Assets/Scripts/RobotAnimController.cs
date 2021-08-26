@@ -24,6 +24,24 @@ public class RobotAnimController : MonoBehaviour
     
     void Update()
     {
-        
+        if(joystick.Direction.magnitude >= deadZone)
+        {
+            // move forward!
+            robotRigidbody.AddForce(transform.forward * moveSpeed);
+
+            // animate walking
+            robotAnimator.SetBool("Walk_Anim", true);
+        }
+        else
+        {
+            // stop moving forward and stop walk animation
+            robotAnimator.SetBool("Walk_Anim", false);
+        }
+
+        // rotate the robot
+        Vector3 targetDirection = new Vector3(joystick.Direction.x, 0f, joystick.Direction.y);
+        Vector3 directionToRotateIn = Vector3.RotateTowards(transform.forward, targetDirection, Time.deltaTime * turnSpeed, 0.0f);
+        transform.rotation = Quaternion.LookRotation(directionToRotateIn);
+         
     }
 }
