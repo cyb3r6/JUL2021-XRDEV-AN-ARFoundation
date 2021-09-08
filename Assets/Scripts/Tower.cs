@@ -41,7 +41,7 @@ public class Tower : MonoBehaviour
         if (GameManager.instance.RobotPlayer())
         {
             GameObject cannonBall = Instantiate(cannonBallPrefab, spawnPoint.position, spawnPoint.rotation);
-
+            cannonBall.GetComponent<Rigidbody>().AddForce(cannonBall.transform.forward * shootingForce);
             Destroy(cannonBall, 5f);
         }
     }

@@ -15,11 +15,11 @@ G:/CS-Desktop/Unity Projects/Classes/JUL2021-XRDEV-AN-ARFoundation/JUL2021-XRDEV
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56819
+64385
 Successfully changed project path to: G:/CS-Desktop/Unity Projects/Classes/JUL2021-XRDEV-AN-ARFoundation/JUL2021-XRDEV-AN-ARFoundation
 G:/CS-Desktop/Unity Projects/Classes/JUL2021-XRDEV-AN-ARFoundation/JUL2021-XRDEV-AN-ARFoundation
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 118.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 25.83 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -35,5 +35,133 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002706 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 24.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.858 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002520 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.807 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1479 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.8 MB.
+System memory in use after: 68.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1923.
+Total: 2.195400 ms (FindLiveObjects: 0.138700 ms CreateObjectMapping: 0.057100 ms MarkObjects: 1.871400 ms  DeleteObjects: 0.126800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/ARImages/CannonTowerImages.asset
+  artifactKey: Guid(18ee279100e700a49b736e9ec236c362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARImages/CannonTowerImages.asset using Guid(18ee279100e700a49b736e9ec236c362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19eb8822af559c043eafcd009e7d5f09') in 0.047264 seconds
+  Import took 0.049612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 985.121247 seconds.
+  path: Assets/ARRobots/MyAssets/CanonTower/Textures/Shield_Big_dif.png
+  artifactKey: Guid(5149f59bafed21e479ba281c878e8a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARRobots/MyAssets/CanonTower/Textures/Shield_Big_dif.png using Guid(5149f59bafed21e479ba281c878e8a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1700d48e282bfa39a80defe824fe56d0') in 0.272328 seconds
+  Import took 0.298396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/ARRobots/MyAssets/CanonTower/Textures/Tower_Base_Dif.png
+  artifactKey: Guid(a16c3a1cc63e49a41adefb0061f38c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARRobots/MyAssets/CanonTower/Textures/Tower_Base_Dif.png using Guid(a16c3a1cc63e49a41adefb0061f38c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67382311b2bb67106f0298982d56f7e') in 0.303034 seconds
+  Import took 0.304866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/ARRobots/MyAssets/CanonTower/Textures/Tower_Top_Dif.png
+  artifactKey: Guid(ad89ef072bd36374b884361a8deea9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARRobots/MyAssets/CanonTower/Textures/Tower_Top_Dif.png using Guid(ad89ef072bd36374b884361a8deea9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ebc0d00749ea2ad655b08b30d92d07') in 0.132741 seconds
+  Import took 0.134594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/ARRobots/MyAssets/CanonTower/Textures/Tower_Top_Deco_Dif.png
+  artifactKey: Guid(0e1f613ccdc6ee143a066b4a26389da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARRobots/MyAssets/CanonTower/Textures/Tower_Top_Deco_Dif.png using Guid(0e1f613ccdc6ee143a066b4a26389da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc00bb0dbabcd3dd7ef2beea6deea569') in 0.118770 seconds
+  Import took 0.120727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/ARRobots/MyAssets/CanonTower/Textures/Tower_Base_Deco_dif.png
+  artifactKey: Guid(92c8f3820a187cc45901315630ac0606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARRobots/MyAssets/CanonTower/Textures/Tower_Base_Deco_dif.png using Guid(92c8f3820a187cc45901315630ac0606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a168c1ea3a6d41710ed794a744cf843') in 0.139925 seconds
+  Import took 0.141887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.823548 seconds.
+  path: Assets/ARRobots/MyAssets/CanonTower/Prefabs/Cannonball.prefab
+  artifactKey: Guid(5691ae0cb62ee4f418d96162b9caa8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARRobots/MyAssets/CanonTower/Prefabs/Cannonball.prefab using Guid(5691ae0cb62ee4f418d96162b9caa8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9fccdf7b287ddb7b5c9505e1447d83') in 0.051189 seconds
+  Import took 0.053410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.953066 seconds.
+  path: Assets/ARRobots/MyAssets/CanonTower/Prefabs/Cannonball.prefab
+  artifactKey: Guid(5691ae0cb62ee4f418d96162b9caa8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARRobots/MyAssets/CanonTower/Prefabs/Cannonball.prefab using Guid(5691ae0cb62ee4f418d96162b9caa8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283e22af100064f9571f6cbdaee14d07') in 0.011064 seconds
+  Import took 0.013259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.819557 seconds.
+  path: Assets/ARRobots/MyAssets/CanonTower/Prefabs/Cannonball.prefab
+  artifactKey: Guid(5691ae0cb62ee4f418d96162b9caa8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARRobots/MyAssets/CanonTower/Prefabs/Cannonball.prefab using Guid(5691ae0cb62ee4f418d96162b9caa8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93f947f9cbb6aff5dcc25757f1b20cb') in 0.013056 seconds
+  Import took 0.015296 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001002 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.398 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.7 MB.
+System memory in use after: 71.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1936.
+Total: 1.502300 ms (FindLiveObjects: 0.154100 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.253100 ms  DeleteObjects: 0.052200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
